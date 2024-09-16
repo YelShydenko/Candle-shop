@@ -1,0 +1,89 @@
+
+@use "@/assets/styles/variables.scss" as nav;
+
+.navbar {
+    background-color: nav.$nav-bg-color;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+    }
+
+    &-list {
+        display: flex;
+        align-items: center;
+        gap: 42px;
+
+        &__item {
+            text-decoration: none;
+            color: nav.$nav-item-color;
+            font-weight: 500;
+            font-size: nav.$nav-font-size;
+            position: relative;
+
+            &-active {
+                color: nav.$nav-item-active-color;
+            }
+
+            .count {
+                position: absolute;
+                bottom: 100%;
+                left: 100%;
+            }
+        }
+
+        &__icon {
+            color: nav.$nav-icon-color;
+            font-size: nav.$nav-icon-size;
+        }
+
+        
+    }
+
+    .menu {
+        &__icon {
+            display: none;
+        }
+    }
+
+    &__logo {
+        img{
+            display: block;
+        }
+    }
+
+
+    @media (max-width: 768px){
+        .menu {
+            order: -1;
+
+            &__icon {
+                display: block;
+            }
+
+            .navbar-list {
+                position: absolute;
+
+                flex-direction: column;
+                align-items: flex-start;
+                background: #fff;
+                padding: 16px;
+                left: 0;
+                width: 100%;
+                margin-top: 25px;
+                gap: 24px;
+                display: none;
+
+                &-active {
+                    display: flex;
+                }
+            }
+        }
+    }
+}

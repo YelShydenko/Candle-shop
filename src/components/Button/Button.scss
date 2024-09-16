@@ -1,0 +1,61 @@
+@use "@/assets/styles/variables.scss" as nav;
+
+.btn {
+    background: none;
+    border: 1px solid;
+    border-color: nav.$button-border-deafult;
+    border-radius: 4px;
+    
+    &-default-size {
+        padding: nav.$button-default-size;
+    }
+
+    &-large-size {
+        padding: nav.$button-large-size;
+    }
+
+    &-default-color {
+        background-color: nav.$button-bg-default;
+        color: nav.$button-color-default;
+
+        &:hover {
+            border: 1px solid;
+            border-color:  nav.$button-border-hover;
+            color: nav.$button-color-hover;
+            background-color: nav.$button-bg-hover;
+        }
+    }
+
+    &-danger-color {
+        background-color: #ec7f89;
+        color: #fff;
+
+        &:hover {
+            border: 1px solid;
+            border-color:  #ec7f89;
+            color: #ec7f89;
+            background-color: #fff;
+        }
+    }
+
+    &-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    &-text-center {
+        text-align: center;
+    }
+
+    &:disabled {
+        background: nav.$button-bg-disabled;
+        color: nav.$button-color-disabled;
+
+        &:hover {
+            border: 1px solid;
+            border-color:  nav.$button-border-deafult;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.products {
+  padding: 90px 15px 125px 15px;
+}
+.products .content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.products .content__header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.products .content__header h2 {
+  color: #0B254B;
+  font-size: 40px;
+  font-weight: 500;
+}
+.products .content__header p {
+  color: #5E6E89;
+  font-size: 18px;
+  font-weight: 500;
+}
+.products-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
+  gap: 30px;
+}/*# sourceMappingURL=Products.css.map */

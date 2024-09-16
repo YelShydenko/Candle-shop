@@ -1,0 +1,27 @@
+.productCard {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.productCard__top {
+  background-color: #F7F8FA;
+}
+.productCard__image {
+  width: 100%;
+  display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 154px;
+}
+.productCard__bottom {
+  padding: 10px 26px 16px 26px;
+}
+.productCard__title a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #0B254B;
+  font-weight: 500;
+}
+.productCard__price {
+  text-align: right;
+  color: #56B280;
+  font-size: 20px;
+}/*# sourceMappingURL=ProductCard.css.map */

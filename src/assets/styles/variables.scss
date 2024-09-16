@@ -1,0 +1,45 @@
+$color-light-1: #fff;
+$color-light-2: #56B280;
+
+$color-dark-1: #272727;
+$color-dark-2: #5E6E89;
+$color-dark-3: #D6D6D6;
+
+
+// <--- Nav colors --->
+$nav-bg-color: rgba($color-light-1, 1);
+$nav-item-color: $color-dark-2;
+$nav-item-active-color: $color-dark-1;
+$nav-icon-color: $color-dark-1;
+
+// <--- Nav Font size --->
+$nav-font-size: 16px;
+$nav-icon-size: 26px;
+
+
+// <--- Header colors --->
+$header-content-bg: rgba($color-light-1, .65);
+$header-title-color: $color-dark-1;
+$header-subtitle-color: $color-dark-2;
+
+// <--- Header Font size --->
+$header-icon-size: 40px;
+$header-title-size: 40px;
+$header-subtitle-size: 18px;
+
+// <--- Button color --->
+$button-bg-default: $color-light-2;
+$button-bg-disabled: $color-dark-3;
+$button-bg-hover: $color-light-1;
+$button-color-default: $color-light-1;
+$button-color-hover: $color-light-2;
+$button-color-disabled: $color-dark-1;
+
+// <--- Button border --->
+$button-border-deafult: rgba($color-light-1, .0);
+$button-border-hover: $color-light-2;
+
+
+// <--- Button padding --->
+$button-default-size: 8px 40px;
+$button-large-size: 8px 80px;

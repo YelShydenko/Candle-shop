@@ -1,0 +1,81 @@
+.authentication {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        &>div {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-control {
+        padding: 8px 16px;
+        border: 1px solid #898989;
+        font-size: 14px;
+        color: #616161;
+        outline: none;
+
+        &-danger {
+            border: 1px solid #DF4343;
+        }
+
+        &:focus {
+            border: 1px solid #56B280;
+        }
+    }
+
+}
+
+.btn {
+    padding: 8px 16px;
+    border: 1px solid #898989;
+    font-size: 14px;
+    outline: none;
+
+    &-success {
+        background: #56B280;
+        color: #fff;
+    }
+}
+
+.grid {
+    @for $i from 2 through 4 {
+        &-column-#{$i} {
+            display: grid;
+            grid-template-columns: repeat($i, 1fr);
+            gap: 12px;
+        }
+    }
+}
+
+.alert {
+    &-danger {
+        color: #DF4343;
+        font-size: 14px;
+    }
+}

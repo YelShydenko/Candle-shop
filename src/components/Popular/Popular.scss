@@ -1,0 +1,65 @@
+.popular {
+    padding: 90px 15px 70px 15px;
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+
+        &__header {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            h2 {
+                color: #0B254B;
+                font-size: 40px;
+                font-weight: 500;
+            }
+
+            p {
+                color: #5E6E89;
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    &-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
+        gap: 30px;
+
+        .card {
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            
+            &__top {
+                background-color: #F7F8FA;
+            }
+
+            &__image {
+                width: 100%;
+                display: block;
+                object-fit: contain;
+                height: 154px;
+            }
+
+            &__bottom {
+                padding: 10px 26px 16px 26px;
+            }
+
+            &__title {
+                font-size: 16px;
+                color: #0B254B;
+                font-weight: 500;
+            }
+
+            &__price {
+                text-align: right;
+                color: #56B280;
+                font-size: 20px;
+            }
+        }
+    }
+}

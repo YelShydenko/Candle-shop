@@ -1,0 +1,71 @@
+.products-page {
+    padding: 90px 15px 125px 15px;
+
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+
+        &__header {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            h2 {
+                color: #0B254B;
+                font-size: 40px;
+                font-weight: 500;
+            }
+
+            p {
+                color: #5E6E89;
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    &-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
+        gap: 30px;
+    }
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        label {
+            color: #5E6E89;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        select {
+            color: #5E6E89;
+            font-size: 16px;
+        }
+
+        input {
+            max-width: 100px;
+        }
+    }
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 15px 0;
+}

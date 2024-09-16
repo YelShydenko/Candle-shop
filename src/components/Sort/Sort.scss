@@ -1,0 +1,26 @@
+.sort {
+    cursor: context-menu;
+    
+    &__label {
+        color: #5E6E89;
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    &__content {
+        position: absolute;
+        background: #fff;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 8px 16px;
+    }
+
+    &__item {
+        padding: 8px;
+        
+
+        &:hover {
+            background-color: #f2f2f2;
+        }
+    }
+
+}

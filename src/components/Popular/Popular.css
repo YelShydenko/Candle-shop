@@ -1,0 +1,55 @@
+.popular {
+  padding: 90px 15px 70px 15px;
+}
+.popular .content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.popular .content__header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.popular .content__header h2 {
+  color: #0B254B;
+  font-size: 40px;
+  font-weight: 500;
+}
+.popular .content__header p {
+  color: #5E6E89;
+  font-size: 18px;
+  font-weight: 500;
+}
+.popular-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
+  gap: 30px;
+}
+.popular-list .card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.popular-list .card__top {
+  background-color: #F7F8FA;
+}
+.popular-list .card__image {
+  width: 100%;
+  display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 154px;
+}
+.popular-list .card__bottom {
+  padding: 10px 26px 16px 26px;
+}
+.popular-list .card__title {
+  font-size: 16px;
+  color: #0B254B;
+  font-weight: 500;
+}
+.popular-list .card__price {
+  text-align: right;
+  color: #56B280;
+  font-size: 20px;
+}/*# sourceMappingURL=Popular.css.map */
