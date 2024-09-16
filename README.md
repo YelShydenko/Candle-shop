@@ -1,8 +1,35 @@
-# React + Vite
+# Candleaf
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a basic setup for a candle shop project. Follow the instructions below to get the project up and running.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone or download the repository to your local machine.
+
+```bash
+git clone https://github.com/YelShydenko/Garden-Products
+``` 
+
+2. In project terminal install node modules.
+
+```bash
+npm install
+```
+
+4. In project terminal run project and use link 
+
+```bash
+npm run dev
+``` 
+
+3. In server folder terminal install node modules.
+
+```bash
+npm install
+``` 
+
+5. In server folder terminal run server
+
+```bash
+node index.js
+```
