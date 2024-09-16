@@ -1,6 +1,8 @@
 # Candleaf
 
-This is a basic setup for a candle shop project. Follow the instructions below to get the project up and running.
+This project is still under development. It is not a real commercial project. 
+
+This is a basic setup for a candle store project. Follow the instructions below to get the project up and running.
 
 ## Getting Started
 
