@@ -18,20 +18,21 @@ git clone https://github.com/YelShydenko/Garden-Products
 npm install
 ```
 
-4. In project terminal run project and use link 
-
-```bash
-npm run dev
-``` 
-
 3. In server folder terminal install node modules.
 
 ```bash
 npm install
 ``` 
 
-5. In server folder terminal run server
+4. In server folder terminal run server
 
 ```bash
 node index.js
 ```
+
+5. In project terminal run project and use link 
+
+```bash
+npm run dev
+``` 
+
